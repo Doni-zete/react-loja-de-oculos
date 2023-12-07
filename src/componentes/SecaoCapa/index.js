@@ -1,9 +1,12 @@
 export default function SecaoCapa() {
-    return (
-        <section>
-            Preços baixos e
-            Óculos de grau e de sol
-            Você só encontra aqu
-        </section>
-    )
+ return (
+  <section>
+   <div>
+    <p>Preços baixos e</p>
+    <h1>Óculos de grau e</h1>
+    <p>Você só encontra aqui</p>
+   </div>
+  </section>
+ )
 }
+    
