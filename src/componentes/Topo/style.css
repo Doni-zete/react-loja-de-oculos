@@ -1,0 +1,22 @@
+.secao-topo {
+ display: flex;
+ width: 100%;
+ align-items: center;
+ justify-content: space-between;
+}
+
+header {
+ padding: 10px 15px;
+}
+
+header img {
+ width: 150px;
+}
+
+header a {
+ font-size: 18px;
+ color: #000;
+ text-decoration: none;
+ padding: 5px;
+ margin: 0 5px;
+}
