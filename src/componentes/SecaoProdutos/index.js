@@ -1,18 +1,23 @@
+import React from 'react'
+import './style.css'
+
 export default function SecaoProdutos() {
  return (
-  <section id="produtos">
-   <div>
-    <h3>Nossos produtos</h3>
-    <p>
-     Trabalhamos com óculos de grau, óculos de sol, lentes transition nos
-     modelos masculino, feminino e infantil.
-    </p>
-    <p>
-     Todos os nossos preços são acessíveis e contam com a melhor qualidade do
-     mercado.
-    </p>
+  <section id="produtos" className="container-produtos">
+   <div className="box-principal">
     <div>
-     <div>
+     <h3>Nossos produtos</h3>
+     <p>
+      Trabalhamos com óculos de grau, óculos de sol, lentes transition nos
+      modelos masculino, feminino e infantil.
+     </p>
+     <p>
+      Todos os nossos preços são acessíveis e contam com a melhor qualidade do
+      mercado.
+     </p>
+    </div>
+    <div className="box-produtos">
+     <div className="box-produto">
       <h4>Óculos de grau</h4>
       <img
        src="assets/oculos01.png"
@@ -21,7 +26,7 @@ export default function SecaoProdutos() {
       />
       <p>R$ 500,00</p>
      </div>
-     <div>
+     <div className="box-produto">
       <h4>Óculos transition</h4>
       <img
        src="assets/oculos02.png"
@@ -30,7 +35,7 @@ export default function SecaoProdutos() {
       />
       <p>R$ 750,00</p>
      </div>
-     <div>
+     <div className="box-produto">
       <h4>Óculos de sol</h4>
       <img
        src="assets/oculos03.png"
@@ -39,7 +44,7 @@ export default function SecaoProdutos() {
       />
       <p>R$ 700,00</p>
      </div>
-     <div>
+     <div className="box-produto">
       <h4>Óculos infantil</h4>
       <img
        src="assets/oculos04.png"

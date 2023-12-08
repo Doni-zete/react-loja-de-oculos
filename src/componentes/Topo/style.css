@@ -11,7 +11,7 @@
     width: 12rem;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-right: 20px;
 }
 
 .nav-list {
@@ -50,17 +50,13 @@
 
 
 @media screen and (max-width: 730px) {
-    .secao-topo {
-        padding: 1.5rem 4rem;
-    }
-
+  
     .nav-item {
         display: none;
     }
 
     .button img {
         display: none;
-        font-size: 2px;
     }
 
     .mobile-menu-icon {
@@ -85,7 +81,7 @@
     }
 
     .icon {
-        width: 50px;
+        width: 40px;
         background-color: #000115;
 
 

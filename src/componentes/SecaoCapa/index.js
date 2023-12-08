@@ -4,7 +4,7 @@ import './style.css'
 export default function SecaoCapa() {
  return (
   <section className="box-imagem-de-fundo">
-   <div>
+   <div className='box-texto'>
     <p>Preços baixos em</p>
     <h1>Óculos de grau e de sol</h1>
     <p>Você só encontra aqui</p>
